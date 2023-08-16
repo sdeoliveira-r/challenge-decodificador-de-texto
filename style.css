@@ -36,7 +36,7 @@ main {
 
 .mensagem {
     background: white;
-    background-image: url(/image/encode.png);
+    background-image: url(/image/encode-msg.png);
     background-repeat: no-repeat;
     background-size: 95px;
     background-position: 10px 20px;
@@ -46,14 +46,20 @@ main {
     color: #333555;
     margin-left: 98px;
     margin-top: 20px;
-    padding-left: 110px;
+    padding-top: 92px;
+    padding-left: 100px;
+    padding-bottom: 25px;
     position: fixed;
     font-size: 32px;
+    resize: none;
+
+
 }
 
 .mensagem:focus {
     outline: none;
 }
+
 
 .buttons {
     display: flex;
@@ -85,15 +91,15 @@ main {
 
 .btn-copiar {
     background-color: gainsboro;
-    border: none;
+    border: solid 1px #333555;
     border-radius: 25px;
     color: #333555;
     cursor: pointer;
-    margin-left: 128px;
-    margin-top: 418px;
+    margin-left: 120px;
+    margin-top: 675px;
     height: 52px;
     width: 317px;
-    position: absolute;
+    position: fixed;
     font-size: 32px;
 }
 
