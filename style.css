@@ -22,7 +22,7 @@ main {
     color: #333555;
     margin-top: 90px;
     text-transform: lowercase;
-    font-size: 32px;
+    font-size: 26px;
 
 }
 
@@ -38,7 +38,7 @@ main {
     background: white;
     background-image: url(/image/encode-msg.png);
     background-repeat: no-repeat;
-    background-size: 95px;
+    background-size: 85px;
     background-position: 10px 20px;
 
     border: none;
@@ -46,20 +46,14 @@ main {
     color: #333555;
     margin-left: 98px;
     margin-top: 20px;
-    padding-top: 92px;
-    padding-left: 100px;
-    padding-bottom: 25px;
+    padding: 92px 22px 22px 92px;
     position: fixed;
-    font-size: 32px;
-    resize: none;
-
-
+    font-size: 26px;
 }
 
 .mensagem:focus {
     outline: none;
 }
-
 
 .buttons {
     display: flex;
@@ -95,8 +89,8 @@ main {
     border-radius: 25px;
     color: #333555;
     cursor: pointer;
-    margin-left: 120px;
-    margin-top: 675px;
+    margin-left: 108px;
+    margin-top: 538px;
     height: 52px;
     width: 317px;
     position: fixed;
