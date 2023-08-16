@@ -1,0 +1,103 @@
+* {
+    background: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo {
+    margin-left: 8px;
+    padding-top: 8px;
+    width: 3%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #333555;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 32px;
+
+}
+
+::placeholder {
+    color: #333555;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: white;
+    background-image: url(/image/encode.png);
+    background-repeat: no-repeat;
+    background-size: 95px;
+    background-position: 10px 20px;
+
+    border: none;
+    border-radius: 24px;
+    color: #333555;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 110px;
+    position: fixed;
+    font-size: 32px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #333555;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    height: 52px;
+    width: 317px;
+    font-size: 32px;
+}
+
+.btn-desencriptar {
+    background-color: #333555;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    height: 52px;
+    width: 317px;
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+.btn-copiar {
+    background-color: gainsboro;
+    border: none;
+    border-radius: 25px;
+    color: #333555;
+    cursor: pointer;
+    margin-left: 128px;
+    margin-top: 418px;
+    height: 52px;
+    width: 317px;
+    position: absolute;
+    font-size: 32px;
+}
+
+.informacao {
+    color: #555;
+    font-size: 32px;
+}
